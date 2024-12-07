@@ -2,7 +2,7 @@ import React, {useCallback, useState} from 'react'
 import { observer } from 'mobx-react-lite'
 
 import { Button } from 'antd'
-import { useStores }  from '../../stores/index'
+import { useStores }  from '@/stores'
 
 const User:React.FC<any> = () => {
   const [count, setCount] = useState(0)
